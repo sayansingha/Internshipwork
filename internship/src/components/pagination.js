@@ -1,14 +1,14 @@
 import React from 'react'
 import { Pagination,Button } from 'react-bootstrap'
-
+import './pagi.css'
 function pagination() {
     return (
         <div>
             <Pagination>
   
             <Pagination.Prev />
-            <Pagination.Item active>{1}</Pagination.Item>
-            <Pagination.Item>{2}</Pagination.Item>
+            <Pagination.Item active id="active">{1}</Pagination.Item>
+            <Pagination.Item >{2}</Pagination.Item>
             <Pagination.Item>{3}</Pagination.Item>
             <Pagination.Item>{4}</Pagination.Item>
             <Pagination.Item>{5}</Pagination.Item>

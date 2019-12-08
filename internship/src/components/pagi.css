@@ -1,0 +1,16 @@
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #0e3939;
+    border-color: #0e3939;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #0e3939;
+    background-color: #fff;
+    border: 1px #0e3939;
+}
